@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	max-width: 100%;
+}
+
+/*header start*/
+header{}
+header .row{
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+	max-width: 20%;
+}
+.logo a{}
+.logo a img{}
+.menu {
+    flex-basis: 80%;
+    max-width: 80%;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.menu ul li{}
+.menu ul li a {
+    display: inline-block;
+    padding: 20px 15px;
+    color: #3b506c;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*header end*/
+/*banner start*/
+.banner_s{}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.content p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3b506ca3;
+}
+.content span{
+	display: block;
+	color: #c066ff;
+}
+.content img{
+	max-width: 550px;
+}
+/*banner end*/
+/*features start*/
+.features{}
+.features .row{
+	justify-content: center;
+}
+.col-3{
+	padding: 20px;
+	max-width: 33.33%;
+	flex-basis: 33.33%;
+	box-sizing: border-box;
+
+}
+.f_content{}
+.f_content h2{
+	font-size: 55px;
+    font-weight: 800;
+    line-height: 1;
+    color: #162c48;
+}
+.f_content h2 span{
+	font-size: 55px;
+	font-weight: 700;
+	color: red;
+}
+.f_content p{
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3b506c;
+    line-height: 1.5;
+}
+.text-right{
+	text-align: right;
+}
+/*features end*/
+/*blog start*/
+.blog{
+
+}
+.post {
+    padding: 60px 20px;
+    box-shadow: 0 50px 20px 5px rgb(0 0 0 / 6%);
+}
+.post img{
+    max-height: 188px;
+    display: block;
+    margin: auto;
+}
+.post h3{
+	margin: 15px 0;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1;
+    color: #162c48;
+}
+.post p{
+	margin: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3b506c;
+    line-height: 1.5;
+}
+.illustration-5{
+	background-color: #fdebed;
+}
+.illustration-6{
+	background-color: #ebf9f4;
+}
+.illustration-7{
+	background-color: #fff7e8;
+}
+}
+/*blog end*/
+/*footer start*/
+footer {
+    background: #0c66ff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p{
+	margin: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3b506c;
+    line-height: 1.5;
+}
+footer p strong{
+	color: #162c48;
+}
+/*footer end*/
